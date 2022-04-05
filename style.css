@@ -52,6 +52,20 @@ header .logo span{
   font-size: 4rem;
 }
 
+.heading {
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.heading span{
+  font-size: 3rem;
+  color:var(--orange);
+  background: rgb(244, 225, 213);
+  padding: 6px;
+  border-radius: 5px;
+}
+
 header .navbar a{
   color:#fff;
   font-size: 2rem;
@@ -324,3 +338,112 @@ color: #fff;
   color:#eee;
   padding:.5rem 0;
 }
+
+
+/*Gazi Rashidul Islam CSS Work Start from here */
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.contact .row .image {
+  flex: 1 1 35rem;
+}
+
+.contact .row .image img {
+  width: 100%;
+}
+
+.contact .row form {
+  flex: 1 1 50rem;
+  padding: 2rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+.contact .row form .inputBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact .row form .inputBox input,
+.contact .row form textarea {
+  width: 49%;
+  margin: 1rem 0;
+  padding: 1rem;
+  font-size: 1.7rem;
+  color: #333;
+  background: #f7f7f7;
+  text-transform: none;
+}
+
+.contact .row form textarea {
+  height: 15rem;
+  resize: none;
+  width: 100%;
+}
+
+.brand-container {
+  text-align: center;
+}
+
+.footer {
+  background: #333;
+  margin-top: 5rem;
+}
+
+.footer .box-container {
+  padding-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  width: 80%;
+  margin: auto;
+}
+
+.footer .box-container .box {
+  padding: 1rem 0;
+  flex: 1 1 25rem;
+}
+
+.footer .box-container .box h3 {
+  font-size: 2.5rem;
+  padding: 0.7rem 0;
+  color: #fff;
+}
+
+.footer .box-container .box p {
+  font-size: 1.5rem;
+  padding: 0.7rem 0;
+  color: #eee;
+}
+
+.footer .box-container .box a {
+  display: block;
+  font-size: 1.5rem;
+  padding: 0.7rem 0;
+  color: #eee;
+}
+
+.footer .box-container .box a:hover {
+  color: var(--orange);
+  text-decoration: underline;
+}
+
+.footer .credit {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
+}
+
+.footer .credit span {
+  color: var(--orange);
+}
+/*Gazi Rashidul Islam CSS Work End Here */
