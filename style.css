@@ -222,7 +222,7 @@ header .search-bar-container label:hover{
 
 .home .content h3{
   font-size: 4.5rem;
-  color:#fff;
+  color:var(--orange);
   text-transform: uppercase;
   text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
 }
